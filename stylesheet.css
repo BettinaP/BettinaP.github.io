@@ -1,0 +1,264 @@
+
+body {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    background-color: #e6f0ff ;
+}
+
+.logo {
+    font-family: 'Bad Script', cursive, serif;
+    text-align: center;
+    color: #4d94ff; 
+    font-size: 80px;
+    text-decoration: none; /*so even when it's a visited link, it doesn't become underlined*/
+    height: 120px;
+}
+
+/*navigation menu starts here*/
+
+.nav {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.nav li {
+    display: inline-block;
+}
+    
+.nav ul {
+    list-style: none; /*removes bullets*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav li a:link, .nav li a:visited {
+    text-decoration: none;
+    width: 160px;
+    display: inline-block;
+    background-color: #4d94ff;
+    color: #ffffff;
+    padding: 5px 2px 5px 2px ;
+}
+
+.nav li a:hover {
+    background-color: #0033cc;
+    color: #ffffff;
+}
+
+.nav li a.active {
+    background-color: #0033cc;
+    color: #ffffff
+}
+
+/*navigation menu ends here*/
+   
+.main {
+    text-align: center;
+    clear: both;
+    display: block;
+    width: 835px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.main p {
+    color: #4d94ff;
+    font-size: 18px;
+    font-family: 'Bad Script', cursive, serif;
+}
+
+.main_img {
+    clear: both;
+    width: 835px;
+    height: 370px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+    
+/* sub-sections displayed here*/
+
+.container a:link, a:visited { /*separate container created so active anchors/links remain same color, while active links in nav bar change colors*/
+    text-decoration: none;
+    padding-bottom: 0px;
+    height: 30px;
+    color: #4d94ff;
+}
+
+.container p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #4d94ff;
+    font-family: 'Bad Script', cursive, serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.beauty {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.well {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.shop {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.small_img {
+   height: 215px;
+   width: 245px;
+   border-radius: 0px;
+}
+
+.makeup {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.skin {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.hair {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.food {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.body {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.mind {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.container2 {
+    width: 960px;
+    display:inline-block;
+    margin-top: 50px;
+}
+
+.shopcontainer {
+    text-align: center;
+    display: inline-block;
+    width: 245px;
+    height: 250px;
+    margin: 23px;
+}
+
+.shopcontainer p {
+    font-family: 'Bad Script', cursive, serif;
+    color: #4d94ff;
+    font-size: 18px;
+}
+
+.about_page {
+    width: 960px;
+    display: inline-block;
+}
+
+.about_page div {
+    text-align: center;
+    float: left;
+}
+
+#about_pic {
+    width: 475px;
+    float: left;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.story {
+   text-align: justify;
+   line-height: 27px; /*having 2 different fonts in one paragraph caused varying line spaces so designating a line height makes it uniform*/
+   float: left;
+   width: 330px;
+   margin-left: 30px;
+   margin-top: 45px;
+}
+
+#contact_pic {
+    width: 832px;
+}
+
+div p {
+    color: #4d94ff;
+    font-size: 18px;
+}
+
+/*format social media as uniform buttons*/
+
+.footer div {
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+}
+
+.footer img {
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+#facebook {
+    display: inline-block;
+}
+
+#instagram {
+    display: inline-block;
+}
+
+#pinterest {
+    display: inline-block;
+}
+
+#twitter {
+    display: inline-block;
+}
